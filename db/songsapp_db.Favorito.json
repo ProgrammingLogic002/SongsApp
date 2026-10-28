@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "6ae1575ae0237e0ffc619672"
+  },
+  "lista_id": {
+    "$oid": "6ae156bfe0237e0ffc61966b"
+  },
+  "cancion_id": {
+    "$oid": "6ae15488e0237e0ffc619649"
+  },
+  "posicion": 1
+}]
