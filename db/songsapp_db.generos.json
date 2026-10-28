@@ -1,0 +1,182 @@
+[{
+  "_id": {
+    "$oid": "6ae12ce17bb7b64847c07335"
+  },
+  "nombre": "Rock",
+  "createdAt": {
+    "$date": "2026-10-27T22:59:45.828Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-27T22:59:45.828Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ae12e7d4300ac43737fcaf9"
+  },
+  "nombre": "Rock",
+  "createdAt": {
+    "$date": "2026-10-27T23:06:37.671Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-27T23:06:37.671Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ae12e86c8fc6a0026c8c412"
+  },
+  "nombre": "Rock",
+  "createdAt": {
+    "$date": "2026-10-27T23:06:46.334Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-27T23:06:46.334Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ae12e98065bcad149fddeb9"
+  },
+  "nombre": "Rock",
+  "createdAt": {
+    "$date": "2026-10-27T23:07:04.439Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-27T23:07:04.439Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ae12eacbe21963402bc9512"
+  },
+  "nombre": "Rock",
+  "createdAt": {
+    "$date": "2026-10-27T23:07:24.581Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-27T23:07:24.581Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ae12fcc8cf05fbb70cadaa9"
+  },
+  "nombre": "Rock",
+  "createdAt": {
+    "$date": "2026-10-27T23:12:12.104Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-27T23:12:12.104Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ae1309e7d0993011e6ac6e4"
+  },
+  "nombre": "Rock",
+  "createdAt": {
+    "$date": "2026-10-27T23:15:42.513Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-27T23:15:42.513Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ae130a832b48e0677a7c691"
+  },
+  "nombre": "Rock",
+  "createdAt": {
+    "$date": "2026-10-27T23:15:52.670Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-27T23:15:52.670Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ae130fd5c8e09a56fa946f1"
+  },
+  "nombre": "Rock",
+  "createdAt": {
+    "$date": "2026-10-27T23:17:17.234Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-27T23:17:17.234Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ae138ffcb502e3fe0bd06d1"
+  },
+  "nombre": "Rock",
+  "createdAt": {
+    "$date": "2026-10-27T23:51:27.524Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-27T23:51:27.524Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ae13951ba71ea20631f8098"
+  },
+  "nombre": "Rock",
+  "createdAt": {
+    "$date": "2026-10-27T23:52:49.880Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-27T23:52:49.880Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ae139759173bec77049252b"
+  },
+  "nombre": "Rock",
+  "createdAt": {
+    "$date": "2026-10-27T23:53:25.866Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-27T23:53:25.866Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ae13986b1fbeb26e879faff"
+  },
+  "nombre": "Rock",
+  "createdAt": {
+    "$date": "2026-10-27T23:53:42.611Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-27T23:53:42.611Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ae139b0f1b0472ba16b8d0e"
+  },
+  "nombre": "Rock",
+  "createdAt": {
+    "$date": "2026-10-27T23:54:24.851Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-27T23:54:24.851Z"
+  },
+  "__v": 0
+}]
