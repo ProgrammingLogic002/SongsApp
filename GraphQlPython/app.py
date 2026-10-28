@@ -54,5 +54,5 @@ def graphql_api():
     return jsonify(respuesta)
 
 if __name__ == '__main__':
-    print("Servidor limpio listo en: http://localhost:3000/graphql")
+    print("Servidor listo en: http://localhost:3000/graphql")
     app.run(port=3000)
