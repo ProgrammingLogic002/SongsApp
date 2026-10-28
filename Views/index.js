@@ -1,29 +1,17 @@
+import express from 'express';
 import { connectDB } from '../config/db.js';
-import { Genero } from '../Models/genero.js';
-import { Usuario } from '../Models/usuarios.js';
+import usuarioRoutes from '../Routes/usuarioRoutes.js';
 
-const crearDatosIniciales = async () => {
-  try {
-    await connectDB();
+const app = express();
 
-    const nuevoGenero = await Genero.create({
-      nombre: 'Rock'
-    });
-    console.log('Género creado:', nuevoGenero);
+app.use(express.json());
 
-    const nuevoUsuario = await Usuario.create({
-      nombre: 'Gael Gamez',
-      apodo: 'gaelg',
-      correo: 'gael@example.com',
-      contrasena: '123456',
-      genero: 'Masculino'
-    });
-    console.log('Usuario creado:', nuevoUsuario);
+connectDB();
 
-    console.log('Datos iniciales insertados correctamente.');
-  } catch (error) {
-    console.error('Error al insertar datos:', error.message);
-  }
-};
+app.use('/api/usuarios', usuarioRoutes);
 
-crearDatosIniciales();
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Servidor corriendo en el puerto ${PORT}`);
+});
