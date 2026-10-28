@@ -23,20 +23,23 @@ export const crearUsuario = async (req, res) => {
     }
 }
 
-const IniciarSesion = async (req, res) => {
+export const IniciarSesion = async (req, res) => {
     try {
         const { correo, contrasena } = req.body;
 
         if (!correo || !contrasena) {
             return res.status(400).json({ error: 'Correo y contraseña son obligatorios' });
         }
+
         const usuario = await Usuario.findOne({ correo });
         if (!usuario) {
             return res.status(404).json({ error: 'Usuario no encontrado' });
         }
+
         if (usuario.contrasena !== contrasena) {
             return res.status(401).json({ error: 'Contraseña incorrecta' });
         }
+        
         res.status(200).json({ message: 'Inicio de sesión exitoso', usuario });
     } catch (error) {
         console.error('Error al iniciar sesión:', error);
