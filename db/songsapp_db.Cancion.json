@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "6ae15488e0237e0ffc619649"
+  },
+  "nombre": "Busy Woman",
+  "autor": "Sabrina Carpenter",
+  "portada": "https://i0.wp.com/elgeneracionalpost.com/wp-content/uploads/2025/02/Snapinst.app_475976373_18500273524009287_4845519185610030615_n_1080.jpg?resize=696%2C696&ssl=1",
+  "archivo_audio": "busy_woman.mp3",
+  "genero_id": {
+    "$oid": "6ae12e7d4300ac43737fcaf9"
+  }
+}]
