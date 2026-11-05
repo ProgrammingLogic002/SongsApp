@@ -1,44 +1,57 @@
-// FavoritoController.js
-
 // 1. Mostrar los favoritos del usuario
-const obtenerFavoritos = (req, res) => {
-    res.json({ mensaje: "Lista de favoritos del usuario" });
+export const obtenerFavoritos = async (req, res) => {
+    try {
+        res.status(200).json({ mensaje: "Lista de favoritos del usuario" });
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
 };
 
 // 2. Agregar una canción
-const agregarAFavoritos = (req, res) => {
-    const { cancionId } = req.body;
-    res.json({ mensaje: `Canción ${cancionId} agregada a favoritos` });
+export const agregarAFavoritos = async (req, res) => {
+    try {
+        const { cancionId } = req.body;
+        res.status(200).json({ mensaje: `Canción ${cancionId} agregada a favoritos` });
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
 };
 
 // 3. Quitar una canción
-const quitarDeFavoritos = (req, res) => {
-    const { cancionId } = req.params;
-    res.json({ mensaje: `Canción ${cancionId} eliminada de favoritos` });
+export const quitarDeFavoritos = async (req, res) => {
+    try {
+        const { cancionId } = req.params;
+        res.status(200).json({ mensaje: `Canción ${cancionId} eliminada de favoritos` });
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
 };
 
 // 4. Cambiar el orden
-const cambiarOrdenFavoritos = (req, res) => {
-    const { nuevoOrden } = req.body;
-    res.json({ mensaje: "Orden de favoritos actualizado" });
+export const cambiarOrdenFavoritos = async (req, res) => {
+    try {
+        const { nuevoOrden } = req.body;
+        res.status(200).json({ mensaje: "Orden de favoritos actualizado" });
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
 };
 
 // 5. Modificar la portada de la lista
-const modificarPortadaLista = (req, res) => {
-    const { rutaImagen } = req.body;
-    res.json({ mensaje: "Portada de favoritos actualizada" });
+export const modificarPortadaLista = async (req, res) => {
+    try {
+        const { rutaImagen } = req.body;
+        res.status(200).json({ mensaje: "Portada de favoritos actualizada" });
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
 };
 
 // 6. Reproducir las canciones en orden
-const reproducirEnOrden = (req, res) => {
-    res.json({ mensaje: "Reproduciendo favoritos en orden" });
-};
-
-module.exports = {
-    obtenerFavoritos,
-    agregarAFavoritos,
-    quitarDeFavoritos,
-    cambiarOrdenFavoritos,
-    modificarPortadaLista,
-    reproducirEnOrden
+export const reproducirEnOrden = async (req, res) => {
+    try {
+        res.status(200).json({ mensaje: "Reproduciendo favoritos en orden" });
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
 };
