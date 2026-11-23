@@ -1,6 +1,9 @@
 #SongsApp
+
 ##Explicación para el despliegue a Docker local
+
 Para desplegar la aplicación es necesario tener docker instalado, y seguir los siguientes pasos:
+
 1. Copiar el repositorio  a tu carpeta local.
 2. Para instalar las dependencias, en la raiz del proyecto ejecuta npm install
 3. Ejecutar el comando docker compose up -d para levantar el contenedor docker
@@ -9,10 +12,11 @@ Para desplegar la aplicación es necesario tener docker instalado, y seguir los 
   cd Views, en la raíz del proyecto ejecutar npm run dev
 
 ##Descripcion del proyecto
-SongsApp es una aplicación web de música que permite a los usuarios explorar canciones organizadas por género, reproducirlas y administrar sus listas de favoritos.
-La plataforma ofrece funciones de registro, inicio de sesión y personalización del perfil de usuario, brindando una experiencia musical personalizada.
+
+SongsApp es una aplicación web de música que permite a los usuarios explorar canciones organizadas por género, reproducirlas y administrar sus listas de favoritos. La plataforma ofrece funciones de registro, inicio de sesión y personalización del perfil de usuario, brindando una experiencia musical personalizada.
 
 ##Descripción de la base de datos
+
 ## Base de datos
 
 El proyecto utiliza **MongoDB** como sistema de gestión de bases de datos NoSQL para almacenar y administrar la información 
