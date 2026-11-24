@@ -1,7 +1,5 @@
-// Controllers/CancionController.js
-import { Cancion } from '../Models/Cancion.js';
+import { Cancion } from '../Models/cancion.js';
 
-// 1. Obtener todas las canciones
 export const obtenerCancionesDisponibles = async (req, res) => {
     try {
         const canciones = await Cancion.find();
@@ -11,11 +9,19 @@ export const obtenerCancionesDisponibles = async (req, res) => {
     }
 };
 
-// 2. AGREGAR 'export' AQUÍ:
+// 2. Crear una nueva canción
 export const crearCancion = async (req, res) => {
     try {
-        const { titulo, artista, genero, duracion } = req.body;
-        const nuevaCancion = new Cancion({ titulo, artista, genero, duracion });
+        const { nombre, autor, portada, archivo_audio, genero } = req.body;
+        
+        const nuevaCancion = new Cancion({ 
+            nombre, 
+            autor, 
+            portada, 
+            archivo_audio, 
+            genero 
+        });
+
         await nuevaCancion.save();
         res.status(201).json({ mensaje: "Canción creada correctamente", cancion: nuevaCancion });
     } catch (error) {
@@ -24,6 +30,7 @@ export const crearCancion = async (req, res) => {
 };
 
 // 3. Agrupar por género
+//falto reproducir lista de canciones 
 export const agruparPorGenero = async (req, res) => {
     try {
         const cancionesPorGenero = await Cancion.aggregate([
@@ -62,3 +69,5 @@ export const obtenerRutaAudio = async (req, res) => {
         res.status(500).json({ mensaje: "Error al obtener la ruta del audio", error: error.message });
     }
 };
+
+//falto crear lista

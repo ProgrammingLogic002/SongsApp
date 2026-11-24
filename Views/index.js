@@ -8,14 +8,23 @@ const app = express();
 
 app.use(express.json());
 
-connectDB();
-
 app.use('/api/usuarios', usuarioRoutes);
 app.use('/api/canciones', cancionesRoutes);
 app.use('/api/favoritos', favoritosRoutes);
 
-
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Servidor corriendo en el puerto ${PORT}`);
-});
+
+const startServer = async () => {
+  try {
+    await connectDB();
+
+    app.listen(PORT, '0.0.0.0', () => {
+      console.log(`Servidor corriendo en el puerto ${PORT}`);
+    });
+  } catch (error) {
+    console.error('No se pudo iniciar el servidor:', error.message);
+    process.exit(1);
+  }
+};
+
+startServer();
