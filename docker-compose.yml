@@ -1,4 +1,3 @@
-version: '3.8'
 
 services:
   mongodb:
@@ -9,8 +8,39 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: admin
       MONGO_INITDB_ROOT_PASSWORD: Z%8tKRvh!UQA4okQ4gnGv@
+      MONGO_INITDB_DATABASE: songsapp_db
     volumes:
       - mongo_data:/data/db
+      - ./db:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - songsapp_net
+  
+  web:
+    build:
+      context: ./GraphQlPython
+      dockerfile: Dockerfile
+    container_name: songsapp_python
+    restart: unless-stopped
+    ports: 
+    - "5000:5000"
+    environment:
+      MONGO_URI: "mongodb://admin:Z%258tKRvh%21UQA4okQ4gnGv%40@mongodb:27017/songsapp_db?authSource=admin"
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    networks:
+      - songsapp_net
+
+
 
 volumes:
   mongo_data:
+
+networks:
+  songsapp_net:
+    driver: bridge

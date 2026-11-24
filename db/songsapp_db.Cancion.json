@@ -1,12 +1,410 @@
-[{
-  "_id": {
-    "$oid": "6ae15488e0237e0ffc619649"
+[
+  {
+    "_id": {
+      "$oid": "6ae15488e0237e0ffc619649"
+    },
+    "nombre": "Busy Woman",
+    "autor": "Sabrina Carpenter",
+    "portada": "https://i0.wp.com/elgeneracionalpost.com/wp-content/uploads/2025/02/Snapinst.app_475976373_18500273524009287_4845519185610030615_n_1080.jpg?resize=696%2C696&ssl=1",
+    "archivo_audio": "busy_woman.mp3",
+    "genero_id": {
+      "$oid": "6ae12e7d4300ac43737fcaf9"
+    }
   },
-  "nombre": "Busy Woman",
-  "autor": "Sabrina Carpenter",
-  "portada": "https://i0.wp.com/elgeneracionalpost.com/wp-content/uploads/2025/02/Snapinst.app_475976373_18500273524009287_4845519185610030615_n_1080.jpg?resize=696%2C696&ssl=1",
-  "archivo_audio": "busy_woman.mp3",
-  "genero_id": {
-    "$oid": "6ae12e7d4300ac43737fcaf9"
+  {
+    "_id": {
+      "$oid": "6ae15510a1b2c3d4e5f70001"
+    },
+    "nombre": "Do I Wanna Know?",
+    "autor": "Arctic Monkeys",
+    "portada": "https://placehold.co/600x600/1a1a1a/ffffff?text=Arctic+Monkeys",
+    "archivo_audio": "do_i_wanna_know.mp3",
+    "genero_id": {
+      "$oid": "6ae12ce17bb7b64847c07335"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15510a1b2c3d4e5f70002"
+    },
+    "nombre": "Bohemian Rhapsody",
+    "autor": "Queen",
+    "portada": "https://placehold.co/600x600/1a1a1a/ffffff?text=Queen",
+    "archivo_audio": "bohemian_rhapsody.mp3",
+    "genero_id": {
+      "$oid": "6ae12ce17bb7b64847c07335"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15510a1b2c3d4e5f70003"
+    },
+    "nombre": "Blinding Lights",
+    "autor": "The Weeknd",
+    "portada": "https://placehold.co/600x600/b91c1c/ffffff?text=The+Weeknd",
+    "archivo_audio": "blinding_lights.mp3",
+    "genero_id": {
+      "$oid": "6ae12e7d4300ac43737fcaf9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15510a1b2c3d4e5f70004"
+    },
+    "nombre": "One More Time",
+    "autor": "Daft Punk",
+    "portada": "https://placehold.co/600x600/2563eb/ffffff?text=Daft+Punk",
+    "archivo_audio": "one_more_time.mp3",
+    "genero_id": {
+      "$oid": "6ae12f10a1b2c3d4e5f60001"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15510a1b2c3d4e5f70005"
+    },
+    "nombre": "Levels",
+    "autor": "Avicii",
+    "portada": "https://placehold.co/600x600/2563eb/ffffff?text=Avicii",
+    "archivo_audio": "levels.mp3",
+    "genero_id": {
+      "$oid": "6ae12f10a1b2c3d4e5f60001"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15510a1b2c3d4e5f70006"
+    },
+    "nombre": "HUMBLE.",
+    "autor": "Kendrick Lamar",
+    "portada": "https://placehold.co/600x600/374151/ffffff?text=Kendrick+Lamar",
+    "archivo_audio": "humble.mp3",
+    "genero_id": {
+      "$oid": "6ae12f45a1b2c3d4e5f60002"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15510a1b2c3d4e5f70007"
+    },
+    "nombre": "SICKO MODE",
+    "autor": "Travis Scott",
+    "portada": "https://placehold.co/600x600/374151/ffffff?text=Travis+Scott",
+    "archivo_audio": "sicko_mode.mp3",
+    "genero_id": {
+      "$oid": "6ae12f45a1b2c3d4e5f60002"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15510a1b2c3d4e5f70008"
+    },
+    "nombre": "Tití Me Preguntó",
+    "autor": "Bad Bunny",
+    "portada": "https://placehold.co/600x600/ea580c/ffffff?text=Bad+Bunny",
+    "archivo_audio": "titi_me_pregunto.mp3",
+    "genero_id": {
+      "$oid": "6ae12f89a1b2c3d4e5f60003"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15510a1b2c3d4e5f70009"
+    },
+    "nombre": "Provenza",
+    "autor": "Karol G",
+    "portada": "https://placehold.co/600x600/ea580c/ffffff?text=Karol+G",
+    "archivo_audio": "provenza.mp3",
+    "genero_id": {
+      "$oid": "6ae12f89a1b2c3d4e5f60003"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15510a1b2c3d4e5f70010"
+    },
+    "nombre": "Take Five",
+    "autor": "The Dave Brubeck Quartet",
+    "portada": "https://placehold.co/600x600/78350f/ffffff?text=Dave+Brubeck",
+    "archivo_audio": "take_five.mp3",
+    "genero_id": {
+      "$oid": "6ae12fc1a1b2c3d4e5f60004"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15510a1b2c3d4e5f70011"
+    },
+    "nombre": "So What",
+    "autor": "Miles Davis",
+    "portada": "https://placehold.co/600x600/78350f/ffffff?text=Miles+Davis",
+    "archivo_audio": "so_what.mp3",
+    "genero_id": {
+      "$oid": "6ae12fc1a1b2c3d4e5f60004"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15510a1b2c3d4e5f70012"
+    },
+    "nombre": "Pedro Navaja",
+    "autor": "Rubén Blades",
+    "portada": "https://placehold.co/600x600/ca8a04/ffffff?text=Ruben+Blades",
+    "archivo_audio": "pedro_navaja.mp3",
+    "genero_id": {
+      "$oid": "6ae13004a1b2c3d4e5f60005"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15510a1b2c3d4e5f70013"
+    },
+    "nombre": "Vivir Mi Vida",
+    "autor": "Marc Anthony",
+    "portada": "https://placehold.co/600x600/ca8a04/ffffff?text=Marc+Anthony",
+    "archivo_audio": "vivir_mi_vida.mp3",
+    "genero_id": {
+      "$oid": "6ae13004a1b2c3d4e5f60005"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15510a1b2c3d4e5f70014"
+    },
+    "nombre": "Cómo Te Voy a Olvidar",
+    "autor": "Los Ángeles Azules",
+    "portada": "https://placehold.co/600x600/0284c7/ffffff?text=Los+Angeles+Azules",
+    "archivo_audio": "como_te_voy_a_olvidar.mp3",
+    "genero_id": {
+      "$oid": "6ae1303ea1b2c3d4e5f60006"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15510a1b2c3d4e5f70015"
+    },
+    "nombre": "Amor Prohibido",
+    "autor": "Selena",
+    "portada": "https://placehold.co/600x600/0284c7/ffffff?text=Selena",
+    "archivo_audio": "amor_prohibido.mp3",
+    "genero_id": {
+      "$oid": "6ae1303ea1b2c3d4e5f60006"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15510a1b2c3d4e5f70016"
+    },
+    "nombre": "Ella Baila Sola",
+    "autor": "Eslabón Armado y Peso Pluma",
+    "portada": "https://placehold.co/600x600/15803d/ffffff?text=Eslabon+Armado",
+    "archivo_audio": "ella_baila_sola.mp3",
+    "genero_id": {
+      "$oid": "6ae13072a1b2c3d4e5f60007"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15510a1b2c3d4e5f70017"
+    },
+    "nombre": "Adiós Amor",
+    "autor": "Christian Nodal",
+    "portada": "https://placehold.co/600x600/15803d/ffffff?text=Christian+Nodal",
+    "archivo_audio": "adios_amor.mp3",
+    "genero_id": {
+      "$oid": "6ae13072a1b2c3d4e5f60007"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15510a1b2c3d4e5f70018"
+    },
+    "nombre": "The Less I Know The Better",
+    "autor": "Tame Impala",
+    "portada": "https://placehold.co/600x600/7e22ce/ffffff?text=Tame+Impala",
+    "archivo_audio": "the_less_i_know_the_better.mp3",
+    "genero_id": {
+      "$oid": "6ae130aba1b2c3d4e5f60008"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15510a1b2c3d4e5f70019"
+    },
+    "nombre": "Space Song",
+    "autor": "Beach House",
+    "portada": "https://placehold.co/600x600/7e22ce/ffffff?text=Beach+House",
+    "archivo_audio": "space_song.mp3",
+    "genero_id": {
+      "$oid": "6ae130aba1b2c3d4e5f60008"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15510a1b2c3d4e5f70020"
+    },
+    "nombre": "Master of Puppets",
+    "autor": "Metallica",
+    "portada": "https://placehold.co/600x600/09090b/ffffff?text=Metallica",
+    "archivo_audio": "master_of_puppets.mp3",
+    "genero_id": {
+      "$oid": "6ae130efa1b2c3d4e5f60009"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15510a1b2c3d4e5f70021"
+    },
+    "nombre": "Chop Suey!",
+    "autor": "System Of A Down",
+    "portada": "https://placehold.co/600x600/09090b/ffffff?text=SOAD",
+    "archivo_audio": "chop_suey.mp3",
+    "genero_id": {
+      "$oid": "6ae130efa1b2c3d4e5f60009"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15510a1b2c3d4e5f70022"
+    },
+    "nombre": "Claro de Luna",
+    "autor": "Claude Debussy",
+    "portada": "https://placehold.co/600x600/475569/ffffff?text=Debussy",
+    "archivo_audio": "claro_de_luna.mp3",
+    "genero_id": {
+      "$oid": "6ae13124a1b2c3d4e5f60010"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15510a1b2c3d4e5f70023"
+    },
+    "nombre": "Las Cuatro Estaciones: Primavera",
+    "autor": "Antonio Vivaldi",
+    "portada": "https://placehold.co/600x600/475569/ffffff?text=Vivaldi",
+    "archivo_audio": "primavera_vivaldi.mp3",
+    "genero_id": {
+      "$oid": "6ae13124a1b2c3d4e5f60010"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15610a1b2c3d4e5f80001"
+    },
+    "nombre": "Espresso",
+    "autor": "Sabrina Carpenter",
+    "portada": "https://placehold.co/600x600/e11d48/ffffff?text=Espresso",
+    "archivo_audio": "espresso.mp3",
+    "genero_id": {
+      "$oid": "6ae12e7d4300ac43737fcaf9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15610a1b2c3d4e5f80002"
+    },
+    "nombre": "Please Please Please",
+    "autor": "Sabrina Carpenter",
+    "portada": "https://placehold.co/600x600/e11d48/ffffff?text=Please+Please+Please",
+    "archivo_audio": "please_please_please.mp3",
+    "genero_id": {
+      "$oid": "6ae12e7d4300ac43737fcaf9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15610a1b2c3d4e5f80003"
+    },
+    "nombre": "Taste",
+    "autor": "Sabrina Carpenter",
+    "portada": "https://placehold.co/600x600/e11d48/ffffff?text=Taste",
+    "archivo_audio": "taste.mp3",
+    "genero_id": {
+      "$oid": "6ae12e7d4300ac43737fcaf9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15610a1b2c3d4e5f80004"
+    },
+    "nombre": "Feather",
+    "autor": "Sabrina Carpenter",
+    "portada": "https://placehold.co/600x600/f472b6/ffffff?text=Feather",
+    "archivo_audio": "feather.mp3",
+    "genero_id": {
+      "$oid": "6ae12e7d4300ac43737fcaf9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15610a1b2c3d4e5f80005"
+    },
+    "nombre": "Nonsense",
+    "autor": "Sabrina Carpenter",
+    "portada": "https://placehold.co/600x600/f472b6/ffffff?text=Nonsense",
+    "archivo_audio": "nonsense.mp3",
+    "genero_id": {
+      "$oid": "6ae12e7d4300ac43737fcaf9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15610a1b2c3d4e5f80006"
+    },
+    "nombre": "Juno",
+    "autor": "Sabrina Carpenter",
+    "portada": "https://placehold.co/600x600/be123c/ffffff?text=Juno",
+    "archivo_audio": "juno.mp3",
+    "genero_id": {
+      "$oid": "6ae12e7d4300ac43737fcaf9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15610a1b2c3d4e5f80007"
+    },
+    "nombre": "Bed Chem",
+    "autor": "Sabrina Carpenter",
+    "portada": "https://placehold.co/600x600/be123c/ffffff?text=Bed+Chem",
+    "archivo_audio": "bed_chem.mp3",
+    "genero_id": {
+      "$oid": "6ae12e7d4300ac43737fcaf9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15610a1b2c3d4e5f80008"
+    },
+    "nombre": "Good Graces",
+    "autor": "Sabrina Carpenter",
+    "portada": "https://placehold.co/600x600/9f1239/ffffff?text=Good+Graces",
+    "archivo_audio": "good_graces.mp3",
+    "genero_id": {
+      "$oid": "6ae12e7d4300ac43737fcaf9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15610a1b2c3d4e5f80009"
+    },
+    "nombre": "Because I Liked a Boy",
+    "autor": "Sabrina Carpenter",
+    "portada": "https://placehold.co/600x600/db2777/ffffff?text=Because+I+Liked+a+Boy",
+    "archivo_audio": "because_i_liked_a_boy.mp3",
+    "genero_id": {
+      "$oid": "6ae12e7d4300ac43737fcaf9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ae15610a1b2c3d4e5f80010"
+    },
+    "nombre": "Sharpest Tool",
+    "autor": "Sabrina Carpenter",
+    "portada": "https://placehold.co/600x600/881337/ffffff?text=Sharpest+Tool",
+    "archivo_audio": "sharpest_tool.mp3",
+    "genero_id": {
+      "$oid": "6ae12e7d4300ac43737fcaf9"
+    }
   }
-}]
+]

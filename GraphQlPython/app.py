@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request, jsonify
 import graphene
 from mongoengine import connect
@@ -9,7 +10,8 @@ from models import genero, usuario, cancion, lista_favoritos, favorito
 from controllers import auth_controller, usuario_controller, cancion_controller, favorito_controller
 
 # Conexion a Mongo
-connect('songsapp_db', host='mongodb://admin:Z%258tKRvh%21UQA4okQ4gnGv%40@localhost:27017/')
+# Conexion a Mongo (directo al contenedor)
+connect(host='mongodb://admin:Z%258tKRvh%21UQA4okQ4gnGv%40@mongodb:27017/songsapp_db?authSource=admin')
 
 # UNIFICACION DE QUERIES
 class Query(
@@ -54,5 +56,5 @@ def graphql_api():
     return jsonify(respuesta)
 
 if __name__ == '__main__':
-    print("Servidor listo en: http://localhost:3000/graphql")
-    app.run(port=3000)
+    print("Servidor listo en: http://localhost:5000/graphql")
+    app.run(host='0.0.0.0', port=5000)
