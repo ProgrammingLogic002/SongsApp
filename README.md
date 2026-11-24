@@ -6,10 +6,7 @@ Para desplegar la aplicación es necesario tener docker instalado, y seguir los 
 
 1. Copiar el repositorio  a tu carpeta local.
 2. Para instalar las dependencias, en la raiz del proyecto ejecuta npm install
-3. Ejecutar el comando docker compose up -d para levantar el contenedor docker
-4. Asegurarse de tener instalado Node.js para ejecutar la API REST
-5. Ejecutar el servidor ingresando en terminal
-  cd Views, en la raíz del proyecto ejecutar npm run dev
+3. Ejecutar el comando docker compose up -d --build para levantar el contenedor docker
 
 ## Descripcion del proyecto
 
