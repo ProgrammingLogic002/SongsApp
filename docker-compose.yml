@@ -1,3 +1,4 @@
+
 services:
   mongodb:
     image: mongo:latest
@@ -9,19 +10,57 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD}
     volumes:
       - mongo_data:/data/db
+      - ./db:/docker-entrypoint-initdb.d
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "mongosh --quiet --username \"$${MONGO_INITDB_ROOT_USERNAME}\" --password \"$${MONGO_INITDB_ROOT_PASSWORD}\" --authenticationDatabase admin --eval \"db.adminCommand('ping').ok\""
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    networks:
+      - songsapp_net
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ./GraphQlPython
+      dockerfile: Dockerfile
+    container_name: songsapp_python
+    ports:
+      - "5000:5000"
+    environment:
+      MONGO_URI: ${MONGO_URI}
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    networks:
+      - songsapp_net
     restart: unless-stopped
 
   api:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: songsapp
     ports:
       - "3000:3000"
     environment:
       PORT: 3000
-      MONGODB_URI: ${MONGODB_URI}
+      MONGODB_URI: ${MONGO_URI}
     depends_on:
-      - mongodb
+      mongodb:
+        condition: service_healthy
+    networks:
+      - songsapp_net
     restart: unless-stopped
 
 volumes:
   mongo_data:
+
+networks:
+  songsapp_net:
+    driver: bridge

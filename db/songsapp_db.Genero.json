@@ -1,45 +1,158 @@
-[{
-  "_id": {
-    "$oid": "6ae12ce17bb7b64847c07335"
+[
+  {
+    "_id": {
+      "$oid": "6ae12ce17bb7b64847c07335"
+    },
+    "nombre": "Rock",
+    "createdAt": {
+      "$date": "2026-10-27T22:59:45.828Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-27T22:59:45.828Z"
+    },
+    "__v": 0
   },
-  "nombre": "Rock",
-  "createdAt": {
-    "$date": "2026-10-27T22:59:45.828Z"
+  {
+    "_id": {
+      "$oid": "6ae12e7d4300ac43737fcaf9"
+    },
+    "nombre": "Pop",
+    "createdAt": {
+      "$date": "2026-10-27T23:06:37.671Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-27T23:06:37.671Z"
+    },
+    "__v": 0
   },
-  "updatedAt": {
-    "$date": "2026-10-27T22:59:45.828Z"
+  {
+    "_id": {
+      "$oid": "6ae12f10a1b2c3d4e5f60001"
+    },
+    "nombre": "Electrónica",
+    "createdAt": {
+      "$date": "2026-10-27T23:10:12.110Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-27T23:10:12.110Z"
+    },
+    "__v": 0
   },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6ae12e7d4300ac43737fcaf9"
+  {
+    "_id": {
+      "$oid": "6ae12f45a1b2c3d4e5f60002"
+    },
+    "nombre": "Hip Hop",
+    "createdAt": {
+      "$date": "2026-10-27T23:12:05.432Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-27T23:12:05.432Z"
+    },
+    "__v": 0
   },
-  "nombre": "Pop",
-  "createdAt": {
-    "$date": "2026-10-27T23:06:37.671Z"
+  {
+    "_id": {
+      "$oid": "6ae12f89a1b2c3d4e5f60003"
+    },
+    "nombre": "Reggaetón",
+    "createdAt": {
+      "$date": "2026-10-27T23:14:22.890Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-27T23:14:22.890Z"
+    },
+    "__v": 0
   },
-  "updatedAt": {
-    "$date": "2026-10-27T23:06:37.671Z"
+  {
+    "_id": {
+      "$oid": "6ae12fc1a1b2c3d4e5f60004"
+    },
+    "nombre": "Jazz",
+    "createdAt": {
+      "$date": "2026-10-27T23:15:48.015Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-27T23:15:48.015Z"
+    },
+    "__v": 0
   },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6ae17c009a989266970c0766"
+  {
+    "_id": {
+      "$oid": "6ae13004a1b2c3d4e5f60005"
+    },
+    "nombre": "Salsa",
+    "createdAt": {
+      "$date": "2026-10-27T23:17:19.504Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-27T23:17:19.504Z"
+    },
+    "__v": 0
   },
-  "nombre": "pedro"
-},
-{
-  "_id": {
-    "$oid": "6ae17ecff0628535a8e9298e"
+  {
+    "_id": {
+      "$oid": "6ae1303ea1b2c3d4e5f60006"
+    },
+    "nombre": "Cumbia",
+    "createdAt": {
+      "$date": "2026-10-27T23:18:55.721Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-27T23:18:55.721Z"
+    },
+    "__v": 0
   },
-  "nombre": "SON",
-  "createdAt": {
-    "$date": "2026-10-28T04:49:19.155Z"
+  {
+    "_id": {
+      "$oid": "6ae13072a1b2c3d4e5f60007"
+    },
+    "nombre": "Regional Mexicano",
+    "createdAt": {
+      "$date": "2026-10-27T23:20:03.339Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-27T23:20:03.339Z"
+    },
+    "__v": 0
   },
-  "updatedAt": {
-    "$date": "2026-10-28T04:49:19.155Z"
+  {
+    "_id": {
+      "$oid": "6ae130aba1b2c3d4e5f60008"
+    },
+    "nombre": "Indie",
+    "createdAt": {
+      "$date": "2026-10-27T23:21:41.912Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-27T23:21:41.912Z"
+    },
+    "__v": 0
   },
-  "__v": 0
-}]
+  {
+    "_id": {
+      "$oid": "6ae130efa1b2c3d4e5f60009"
+    },
+    "nombre": "Metal",
+    "createdAt": {
+      "$date": "2026-10-27T23:23:10.608Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-27T23:23:10.608Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6ae13124a1b2c3d4e5f60010"
+    },
+    "nombre": "Clásica",
+    "createdAt": {
+      "$date": "2026-10-27T23:25:00.145Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-27T23:25:00.145Z"
+    },
+    "__v": 0
+  }
+]
